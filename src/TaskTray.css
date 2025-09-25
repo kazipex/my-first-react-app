@@ -1,0 +1,38 @@
+.tasktray{
+    width: 325px;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    border-right: rgb(194, 194, 194) 1px solid;
+    z-index: 2;
+}
+.tasktray > div{
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.task{
+    width: 325px;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -25px;
+    transition: margin-left 0.3s linear, background-color 0.3s linear; 
+    color: rgb(126, 126, 126);
+    font-size: 40px;
+}
+.task:hover{
+    background-color: #575757;
+    cursor: pointer;
+    animation: task-pullout 0.3s 1 linear;
+    margin-left: 0px;
+    color: rgb(255, 255, 255)
+}
+@keyframes task-pullout{
+    0% {margin-left: -25px; background-color: rgb(255, 255, 255);}
+    100% {margin-left: 0px; background-color: #575757; color: rgb(255, 255, 255);}
+    
+}

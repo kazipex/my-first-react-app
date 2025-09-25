@@ -1,0 +1,21 @@
+.taskbar{
+    width: 325px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 110px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    z-index: 1;
+    text-shadow: 4px 3px 3px rgb(240, 238, 238);
+    z-index: 3;
+}
+h1{
+    color: rgb(201, 201, 201);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 0px;
+    position: absolute;
+}

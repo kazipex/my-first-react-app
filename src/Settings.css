@@ -1,0 +1,19 @@
+.settings-title {
+    z-index: 1;
+    right: 50px;
+    top: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    animation: title-slidein 0.3s 1 linear;
+}
+@keyframes title-slidein {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}

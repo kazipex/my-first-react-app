@@ -1,0 +1,29 @@
+.cheese{
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+}
+.chunkard-box{
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px;
+    height: 30px;
+}
+.chunkard-box:hover{
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+.chunkard{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 10px;
+    margin-top: 20px;
+}

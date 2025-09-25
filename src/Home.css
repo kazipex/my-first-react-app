@@ -1,0 +1,11 @@
+.home {
+    z-index: 1;
+    right: 350px;
+    top: 300px;
+    color: rgb(184, 184, 184);
+    font-size: 100px;
+    animation: title-slidein 0.3s 1 linear;
+    background-color: rgb(223, 223, 223);
+    border-radius: 20px;
+    padding: 50px;
+}
